@@ -1,0 +1,22 @@
+<odoo>
+    <data>
+      
+        <report string="Rekap Penjualan Per Customer"
+            model="generate.report.sale.order"
+            auto="True"
+            report_type="xlsx"
+            name="report_generate_penjualan_customer_xls"
+            id="report_generate_penjualan_customer_xls"
+            menu="False"
+            />
+
+        <report string="Detail Penjualan Product"
+            model="generate.report.sale.order"
+            auto="True"
+            report_type="xlsx"
+            name="report_generate_detail_penjualan_barang_xls"
+            id="report_generate_detail_penjualan_barang_xls"
+            menu="False"
+            />
+	</data>
+</odoo>

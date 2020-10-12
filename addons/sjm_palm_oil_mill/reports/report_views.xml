@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report string  = "Laporan HPP"
+            model   = "mill.valuation"
+            auto    = "True"
+            name    = "report_hpp_xlsx"
+            id      = "report_hpp_xlsx"
+            menu    = "True"
+            report_type = "xlsx"
+        />
+    </data>
+</odoo>
